@@ -6,11 +6,13 @@
     font-family: 'Fredoka', sans-serif;
 }
 
+/* body dimension and margin setup */
 body {
     width: 80vw;
     margin: auto;
 }
 
+/* title setup */
 header {
     text-align: center;
 }
@@ -22,6 +24,7 @@ h1 {
 
 }
 
+/* main setup */
 main {
     display: flex;
     justify-content: space-between;
@@ -30,6 +33,7 @@ main {
     padding: 1rem;
 }
 
+/* cards setup */
 .worker {
     margin: 1rem;
     background-color: black;
@@ -47,6 +51,7 @@ img {
     height: 50px;
 }
 
+/* misc */
 h4 {
     text-transform: uppercase;
 }
