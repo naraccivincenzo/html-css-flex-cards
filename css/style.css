@@ -1,0 +1,61 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+body {
+    width: 80vw;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: #e53170;
+    text-transform: capitalize;
+    padding: 1rem;
+
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem;
+}
+
+.worker {
+    margin: 1rem;
+    background-color: black;
+    color: white;
+    font-size: 0.6rem;
+    display: flex;
+    flex-grow: 0;
+}
+
+.info {
+    padding: 0.3rem 1.1rem 0 0.6rem;
+}
+
+img {
+    height: 50px;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+h4,
+.job {
+    padding-bottom: 0.2rem;
+}
+
+.email {
+    color: #25ccf2;
+}
