@@ -8,7 +8,7 @@
 
 /* body dimension and margin setup */
 body {
-    width: 80vw;
+    width: 80%;
     margin: auto;
 }
 
@@ -21,7 +21,6 @@ h1 {
     color: #e53170;
     text-transform: capitalize;
     padding: 1rem;
-
 }
 
 /* main setup */
@@ -31,24 +30,25 @@ main {
     flex-wrap: wrap;
     align-items: center;
     padding: 1rem;
+    margin: 0 -2rem;
 }
 
 /* cards setup */
 .worker {
+    display: flex;
     margin: 1rem;
     background-color: black;
     color: white;
     font-size: 0.6rem;
-    display: flex;
-    flex-grow: 0;
+    width: calc(100% / 3 - 2rem);
 }
 
 .info {
-    padding: 0.3rem 1.1rem 0 0.6rem;
+    padding: .3rem 1rem 0 .6rem;
 }
 
 img {
-    height: 50px;
+    height: 3.125rem;
 }
 
 /* misc */
@@ -58,7 +58,7 @@ h4 {
 
 h4,
 .job {
-    padding-bottom: 0.2rem;
+    padding-bottom: .1875rem;
 }
 
 .email {
